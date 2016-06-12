@@ -7,12 +7,12 @@ html {
 }
 
 .center-container {
-  @include outer-container(1080px);
+  @include outer-container(12);
 }
 
 .selection-container {
   @include span-columns(9);
-  @include shift(.5);
+  @include shift(1.5);
   background-color: rgba(99, 97, 75, 0);
   z-index: 1;
   position: absolute;

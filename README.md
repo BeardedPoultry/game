@@ -7,9 +7,7 @@ That will be the bread and butter of anything that you will need to get the game
 **Disclaimer
 **Not all functions work presently in the game presently. Consider this an pre-alpha build.
 
-## This game is a collaboration between Matt Chastain, Kyle Richardson and Myself.
-
-The goal of the game is to beat your Opponent in the art of spacebar based battle!
+## The goal of the game is to beat your Opponent in the art of spacebar based battle!
 
 #Instructions
 Press spacebar for Attack!
