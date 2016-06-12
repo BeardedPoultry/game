@@ -1,5 +1,12 @@
 @import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
-@import '../bower_components/neat/app/assets/stylesheets/neat';
+
+@import
+ '../bower_components/neat/app/assets/stylesheets/neat';
+
+@import 'popup';
+@import 'character-select';
+@import 'fightscreen';
+
 
 // Typography
 $base-font-family: $helvetica;
@@ -16,6 +23,10 @@ $base-background-color: $very-light-gray;
 
 body {
   font-family: $base-font-family;
-  background-color: $base-background-color;
   color: $base-font-color;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
 }

@@ -1,0 +1,145 @@
+body {
+  background-image: url("");
+  color: rgba(174, 173, 162, 1);
+  margin: 10px;
+  margin-right: 20px;
+}
+.fight-header {
+  margin-bottom: 75px;
+}
+.hero-info {
+  width: 500px;
+  margin-left: 20px;
+  top:0;
+  left: 20px;
+}
+.villain-info {
+  text-align: right;
+  width: 400px;
+  top: 0;
+  right: 70px;
+  position: absolute;
+}
+.villain-name,
+.hero-name {
+  height: 30px;
+  width: 150px;
+  background-color: rgba(200, 117, 51, 1);
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: inset 0 0 35px ;
+}
+
+//healthbars for fight----------------------------------------------------------------------
+//------------------------------------------------------------------------------------------
+.health-green {
+background-color: rgba(0, 178, 72, 1);
+  height: 35px;
+  width: 450px;
+  margin: 0;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  box-shadow: inset 0 0 15px rgba(255, 43, 29, 1);
+}
+
+.health-red {
+background-color: rgba(255, 43, 29, 1);
+  height: 35px;
+  width: 450px;
+  margin:0;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+
+//Magic points bar ---------------------------------------------
+//-------------------------------------------------------------------
+
+.magic-purple-hero {
+  background-color: rgba(144, 30, 204, 1);
+  box-shadow: inset 0 0 40px rgba(201, 100, 155, 1);
+  height: 25px;
+  width: 200px;
+  padding-top: 3px; 
+  border-bottom-left-radius: 15px; 
+  border-top-left-radius: 15px;
+  padding-left: 5px;
+  color: grey;
+}
+.magic-purple-villain {
+  background-color: rgba(144, 30, 204, 1);
+  box-shadow: inset 0 0 40px rgba(201, 100, 155, 1);
+  height: 25px;
+  width: 200px;
+  margin-left: 250px;
+  padding-top: 3px; 
+  border-bottom-right-radius: 15px; 
+  border-top-right-radius: 15px;
+  padding-right: 5px;
+  color: grey;
+}
+//images-----------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------
+.img-villain,
+.img-hero {
+  height: 400px;
+  width: 400px;
+  margin-top: 100px;
+  // margin-top: 5px;
+  // margin-bottom: -40px;
+}
+.img-villain {
+  right: 0;
+  position: absolute;
+  margin-right: -20px;
+}
+.img-hero {
+  margin-left: -20px;
+  // margin-top: 1px;
+  margin-bottom: 15px;
+}
+
+.damage {
+  position: absolute;
+  top: 0;
+  color: white;
+  font-size: 2em;
+}
+
+.villain-img .damage {
+  right: 13%;
+  top: 35%;
+}
+
+.hero-img .damage {
+  left: 13%;
+  top: 35%;
+}
+
+.fight-status {
+  background-color: rgba(100,100,100,.8);
+  color: white;
+  height: 250px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.hide-footer {
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+.show-footer {
+  color: white;
+  position: relative;
+  left: 47.3%;
+  bottom: 3em;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
